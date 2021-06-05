@@ -1,0 +1,241 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* HEADER */
+
+.navbar {
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.navbar-nav a {
+    transition: .3s;
+}
+
+.navbar-nav a:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* end HEADER */
+
+
+/* ICONS */
+
+.whatsapp,
+.ig,
+.fb {
+    display: inline-block;
+    margin: 10px;
+}
+
+.bi-facebook {
+    color: rgb(66, 103, 178);
+}
+
+.bi-instagram {
+    color: rgb(225, 48, 108);
+}
+
+.bi-whatsapp {
+    color: rgb(18, 140, 126);
+}
+
+.bi:hover {
+    transform: scale(1.1);
+}
+
+
+/* end ICONS */
+
+
+/* Category */
+
+.category {
+    height: 130px;
+    margin-top: 75px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.category-box {
+    width: 20%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    margin-left: -30px;
+    background: rgba(128, 128, 128, .5);
+}
+
+.category-box span {
+    margin-left: 10px;
+}
+
+.category-box a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* end Category */
+
+
+/* Berita Title */
+
+.berita {
+    height: 75px;
+    padding-bottom: 100px;
+}
+
+.b-title h2 {
+    line-height: 8px;
+}
+
+
+/* end Berita Title */
+
+
+/* Content */
+
+.content {
+    height: 120vh;
+    padding-top: 20px;
+}
+
+.content-image {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content-img {
+    background-image: url(pexels-photo-636243.jpeg);
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+}
+
+.paragraf {
+    padding-left: 10px;
+}
+
+.title {
+    margin-top: -10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.title a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.author p {
+    font-size: 12px;
+}
+
+.author p span {
+    color: lightgrey;
+}
+
+.rw-2 {
+    margin-top: 50px;
+}
+
+.content-box {
+    transform: scale(1.1);
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: .4s;
+}
+
+.content-box:hover {
+    transform: scale(1);
+    transition: .4s
+}
+
+
+/* footer */
+
+footer {
+    height: 60vh;
+    background-color: black;
+}
+
+.follow-icon a {
+    text-decoration: none;
+    margin: auto;
+}
+
+.mx {
+    margin-left: 104px;
+}
+
+.bi {
+    text-align: center;
+}
+
+.bi-facebook {
+    color: rgb(66, 103, 178);
+}
+
+.bi-instagram {
+    color: rgb(225, 48, 108);
+}
+
+.bi-whatsapp {
+    color: rgb(18, 140, 126);
+}
+
+.nama-company {
+    display: inline-block;
+}
+
+.bi:hover {
+    transform: scale(1.1);
+}
