@@ -1,0 +1,1108 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header */
+
+#beranda {
+    height: 100vh;
+    background-image: url(jumbo-bg.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+.navbar {
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.navbar-nav a {
+    transition: .3s;
+}
+
+.navbar-nav a:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dropdown {
+    margin-top: 20px;
+}
+
+.jumbotron {
+    height: 88.6vh;
+}
+
+.jumbo-box {
+    width: 50%;
+    height: 87.5vh;
+    display: flex;
+    align-items: center;
+}
+
+.jumbo {
+    height: 87.5vh;
+}
+
+.jumbo-content {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.jumbo-text {
+    width: 100%;
+}
+
+.jumbo-text h1,
+p {
+    color: white !important;
+}
+
+.jumbo-text h1 {
+    font-size: 60px;
+}
+
+.jumbo-text p {
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.jumbo-img {
+    background-image: url(header-img.png);
+    width: 400px;
+    height: 460px;
+    background-size: cover;
+}
+
+
+/* end Header */
+
+
+/* About */
+
+.aboo {
+    height: 100vh;
+}
+
+.abo {
+    height: 100vh;
+}
+
+.abo-img-box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.abo-img {
+    width: 60%;
+    height: 500px;
+    background-image: url(pexels-photo-1904769.jpeg);
+    background-size: cover;
+}
+
+.abo-text-box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.abo-text {
+    width: 85%;
+    height: 450px;
+    margin-left: -80px;
+    background-color: white;
+}
+
+.paragraf {
+    margin: 30px;
+}
+
+.title {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.title h2 {
+    font-weight: bold;
+}
+
+
+/* end About */
+
+
+/* BERITA */
+
+.b {
+    height: 75vh;
+    background-color: black;
+}
+
+.b-grd {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-box {
+    width: 100%;
+    height: 230px;
+}
+
+.b-box h2 {
+    color: white;
+}
+
+.b-box a {
+    font-weight: bold;
+}
+
+.bc-grid {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bc-box {
+    width: 100%;
+    height: 330px;
+    background-color: grey;
+}
+
+.bc-img-box {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bc-img {
+    background-image: url(pexels-photo-179941.jpeg);
+    background-size: cover;
+    width: 80%;
+    height: 150px;
+    margin: auto;
+}
+
+.bc-box p {
+    text-align: center;
+}
+
+.bc-btn {
+    width: 100%;
+    height: 41.3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bc-box {
+    transition: .4s;
+}
+
+.bc-box:hover {
+    transform: scale(1.1);
+}
+
+
+/* end BERITA */
+
+
+/* Komentar */
+
+.komen {
+    height: 100vh;
+}
+
+.komen-title {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guest {
+    height: 85vh;
+}
+
+.guest-img {
+    width: 200px;
+    height: 200px;
+    background-image: url(UI-face-1.jpg);
+}
+
+.guest-icon {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp,
+.ig,
+.fb {
+    display: inline-block;
+    margin: 10px;
+}
+
+.guest-box {
+    transform: scale(1.1);
+    margin-right: 15px;
+    margin-right: 15px;
+    transition: .4s;
+}
+
+.guest-box:hover {
+    box-shadow: none !important;
+    transition: .4s;
+    transform: scale(1);
+}
+
+
+/* END Komentar */
+
+
+/* Karousel */
+
+.carosel {
+    background-image: url(jumbo-bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* Visi dan Misi */
+
+.vm {
+    height: 75vh;
+}
+
+.v-box {
+    width: 100%;
+    height: 75vh;
+}
+
+.m-box {
+    width: 100%;
+    height: 75vh;
+}
+
+
+/* footer */
+
+footer {
+    height: 60vh;
+    background-color: black;
+}
+
+.follow-icon a {
+    text-decoration: none;
+    margin: auto;
+}
+
+.mx {
+    margin-left: 104px;
+}
+
+.bi {
+    text-align: center;
+}
+
+.bi-facebook {
+    color: rgb(66, 103, 178);
+}
+
+.bi-instagram {
+    color: rgb(225, 48, 108);
+}
+
+.bi-whatsapp {
+    color: rgb(18, 140, 126);
+}
+
+.nama-company {
+    display: inline-block;
+}
+
+.bi:hover {
+    transform: scale(1.1);
+}
+
+
+/* 
+/* RESPONSIVE */
+
+
+/* XS Devices */
+
+@media (min-width: 320px) {
+    .navbar-nav {
+        height: 410px;
+    }
+    .navbar-nav .fb {
+        margin-left: ;
+    }
+    .navbar-nav a {
+        transition: .3s;
+    }
+    .navbar-nav a:hover {
+        transform: scaleY(1.1);
+        transition: .3s;
+        background: lightgrey;
+    }
+    /* JUMBOTRON */
+    .jumbo-text {
+        margin-top: 200px;
+    }
+    .jumbo-text h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .jumbo-text p {
+        font-size: 10px;
+        text-align: center;
+    }
+    .jumbo-img {
+        width: 200px;
+        height: 250px;
+        margin: auto !important;
+        background-image: none;
+    }
+    /* ABOUT */
+    .aboo {
+        height: 200vh;
+    }
+    .abo {
+        height: 200vh;
+    }
+    .abo-img {
+        width: 90%;
+        height: 300px;
+    }
+    .abo-img-box {
+        width: 100%;
+        height: 75vh;
+        justify-content: center;
+    }
+    .abo-text-box {
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .title h2 {
+        text-align: center;
+    }
+    .paragraf p {
+        font-size: 12px;
+        text-align: center;
+    }
+    .abo-text {
+        margin: 0;
+        box-shadow: none;
+        margin-top: -20px;
+        background-color: rgba(0, 0, 0, 0);
+        height: 630px;
+    }
+    /* BERITA */
+    .b {
+        height: 315vh;
+    }
+    .b-row {
+        height: 315vh;
+    }
+    .bc-grid {
+        height: 350px;
+    }
+    .bc-box {
+        width: 80%;
+        height: 300px;
+    }
+    .b-grd {
+        height: 300px;
+    }
+    .b-box {
+        text-align: center;
+    }
+    /* KOMENTAR */
+    .komen {
+        height: 360vh;
+    }
+    .komen-title {
+        text-align: center;
+        height: 40vh;
+    }
+    .guest {
+        height: 320vh;
+    }
+    .guest .container {
+        height: 320vh;
+    }
+    .blockquote p {
+        text-align: center;
+        font-size: 15px;
+    }
+    .blockquote-footer {
+        text-align: center;
+    }
+    .guest-box {
+        /* OPTION 
+		background-color: white;
+		border-radius: 10px;
+		box-shadow: 0px 3px 2px 2px rgba(0,0,0,.5);
+		*/
+        height: 430px;
+    }
+    .guest-img-box {
+        width: 100%;
+        height: 180px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .guest-img {
+        width: 150px;
+        height: 150px;
+        background-size: cover;
+    }
+    /* CAROUSEL */
+    .carosel {
+        height: 300px !important;
+    }
+    .crsl {
+        width: 300px !important;
+        height: 300px !important;
+        background-size: cover;
+    }
+    /* VISI & MISI */
+    .vm {
+        height: 170vh;
+    }
+    .v-box {
+        width: 100%;
+        height: 58vh;
+        text-align: center;
+    }
+    .v-box .lead {
+        font-size: 15px !important;
+    }
+    .m-box {
+        width: 100%;
+        height: 75vh;
+    }
+    .m-box ol li {
+        font-size: 15px !important;
+        text-align: center;
+        margin: 5px;
+    }
+    /* KONTAK */
+    footer {
+        height: 165vh;
+    }
+    .contact-box {
+        margin-top: 30px;
+    }
+    .contact-box h3 {
+        text-align: left !important;
+    }
+    .perum {
+        text-align: center !important;
+        margin: 0;
+    }
+    .ks {
+        margin-left: 55px;
+    }
+    .ts {
+        margin-left: 55px;
+    }
+    .follow {
+        margin-top: 30px;
+    }
+    .follow-box h3 {
+        text-align: left !important;
+    }
+    .mx {
+        margin: 0;
+        margin-top: -20px;
+    }
+}
+
+@media (min-width: 375px) {
+    /* JUMBOTRON */
+    .jumbo-text {
+        margin-top: 230px;
+    }
+    .jumbo-text h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .jumbo-text p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .jumbo-img {
+        width: 230px;
+        height: 280px;
+        margin: auto !important;
+    }
+    /* ABOUT */
+    .abo-img {
+        width: 90%;
+        height: 400px;
+    }
+    .abo-text {
+        height: 730px;
+        width: 90%;
+    }
+    .paragraf p {
+        font-size: 15px;
+    }
+    /* BERITA */
+    .b {
+        height: 270vh;
+    }
+    .b-row {
+        height: 270vh;
+    }
+    /* KOMENTAR */
+    .komen {
+        height: 300vh;
+    }
+    .komen-title {
+        text-align: center;
+        height: 40vh;
+    }
+    .guest {
+        height: 270vh;
+    }
+    .guest .container {
+        height: 270vh;
+    }
+    /* CAROUSEL */
+    .carosel {
+        height: 330px !important;
+    }
+    .crsl {
+        width: 330px !important;
+        height: 330px !important;
+        background-size: cover;
+    }
+    /* VISI & MISI */
+    .vm {
+        height: 140vh;
+    }
+    .v-box {
+        width: 100%;
+        height: 58vh;
+        text-align: center;
+    }
+    .v-box .lead {
+        font-size: 15px !important;
+    }
+    .m-box {
+        width: 100%;
+        height: 75vh;
+        margin-top: -100px;
+    }
+    .m-box ol li {
+        font-size: 15px !important;
+        text-align: center;
+        margin: 5px;
+    }
+    /* KONTAK */
+    footer {
+        height: 142vh;
+    }
+    .contact-box {
+        margin-top: 30px;
+    }
+    .contact-box h3 {
+        text-align: left !important;
+    }
+    .perum {
+        text-align: center !important;
+        margin: 0;
+    }
+    .ks {
+        margin-left: 55px;
+    }
+    .ts {
+        margin-left: 55px;
+    }
+    .follow {
+        margin-top: 30px;
+    }
+    .follow-box h3 {
+        text-align: left !important;
+    }
+    .mx {
+        margin: 0;
+        margin-top: -20px;
+    }
+}
+
+@media (min-width: 414px) {
+    /* ABOUT */
+    .aboo {
+        height: 170vh;
+    }
+    .abo {
+        height: 170vh;
+    }
+    .abo-img {
+        width: 90%;
+        height: 450px;
+    }
+    .abo-text {
+        width: 90%;
+        height: 620px;
+    }
+    /* BERITA */
+    .b {
+        height: 255vh;
+    }
+    .b-row {
+        height: 255vh;
+    }
+    /* KOMENTAR */
+    .komen {
+        height: 290vh;
+    }
+    .komen-title {
+        text-align: center;
+        height: 40vh;
+    }
+    .guest {
+        height: 250vh;
+    }
+    .guest .container {
+        height: 250vh;
+    }
+    /* CAROUSEL */
+    .carosel {
+        height: 350px !important;
+    }
+    .crsl {
+        width: 365px !important;
+        height: 350px !important;
+        background-size: cover;
+    }
+    /* VISI DAN MISI */
+    .vm {
+        height: 180vh;
+    }
+    .v-box {
+        margin-top: 20px;
+    }
+    .m-box {
+        margin-top: 50px;
+    }
+    .m-box ol li {
+        font-size: 20px !important;
+    }
+    .v-box .lead {
+        font-size: 20px !important;
+    }
+    /*FOOTER */
+    footer {
+        height: 130vh;
+    }
+    .ts {
+        margin: 0;
+    }
+}
+
+@media (min-width: 576px) {
+    /* ABOUT */
+    .aboo {
+        height: 200vh;
+    }
+    .abo {
+        height: 200vh;
+    }
+    .abo-img-box {
+        margin: 0;
+        height: 600px;
+    }
+    .abo-img {
+        width: 70%;
+        height: 530px;
+    }
+    .abo-text {
+        margin: 0;
+        height: 440px;
+    }
+    /* BERITA */
+    .b {
+        height: 385vh;
+    }
+    .b-row {
+        height: 385vh;
+    }
+    .bc-grid {
+        height: 450px;
+    }
+    .bc-box {
+        height: 390px;
+        width: 65%;
+    }
+    .bc-img-box {
+        width: 100%;
+        height: 250px;
+    }
+    .bc-img {
+        height: 200px;
+        width: 200px;
+    }
+    /* KOMENTAR */
+    .komen {
+        height: 360vh;
+    }
+    .komen-title {
+        text-align: center;
+        height: 40vh;
+    }
+    .guest {
+        height: 320vh;
+    }
+    .guest .container {
+        height: 320vh;
+    }
+    .guest-grd {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .guest-box {
+        width: 70%;
+    }
+    /* KAROUSEL */
+    .carosel {
+        height: 430px !important;
+    }
+    .crsl {
+        width: 530px !important;
+        height: 430px !important;
+        background-size: cover;
+    }
+    /*FOOTER */
+    footer {
+        height: 130vh;
+    }
+    .ks {
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    /* JUMBOTRON */
+    .jumbo-text {
+        margin-top: 100px;
+    }
+    .jdo {
+        height: 100vh;
+    }
+    .jumbo-img {
+        background-image: url(header-img.png);
+    }
+    .jumbo-text h1 {
+        font-size: 50px !important;
+        text-align: left;
+    }
+    .jumbo-text p {
+        font-size: 15px !important;
+        text-align: left;
+    }
+    .jumbo-img {
+        width: 300px;
+        height: 360px
+    }
+    /* ABOUT */
+    .aboo {
+        height: 230vh;
+    }
+    .abo {
+        height: 230vh;
+    }
+    .abo-img-box {
+        height: 750px;
+    }
+    .abo-img {
+        width: 65%;
+        height: 600px;
+    }
+    /* BERITA */
+    /* CAROUSEL */
+    .carosel {
+        height: 580px !important;
+    }
+    .crsl {
+        width: 700px !important;
+        height: 580px !important;
+        background-size: cover;
+    }
+    footer {
+        height: 90vh !important;
+    }
+    .indah {
+        margin-left: 55px;
+    }
+    .kab {
+        margin-left: 55px;
+    }
+    .copy {
+        text-align: left !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .guest-box {
+        transform: none;
+        margin-right: 0;
+        margin-right: 0;
+        transition: 0;
+        box-shadow: none !important;
+        background: white !important;
+    }
+    .guest-box:hover {
+        box-shadow: none !important;
+        transition: 0;
+        transform: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        height: 100%;
+        display: flex !important;
+        justify-content: flex-end !important;
+    }
+    .navbar-nav a {
+        font-size: 20px;
+        margin: 0 3px !important;
+    }
+    .navbar-nav a:hover {
+        background: none;
+        transform: scale(1.1);
+    }
+    .collapse {
+        display: flex;
+        justify-content: flex-end;
+    }
+    /* ABOUT */
+    .aboo {
+        height: 100vh;
+    }
+    .abo {
+        height: 100vh;
+    }
+    .abo-img-box {
+        height: 100vh;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .abo-img {
+        width: 80%;
+        height: 500px;
+    }
+    .abo-text-box {
+        height: 100vh;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center
+    }
+    .abo-text {
+        width: 100%;
+        height: 450px;
+        margin-left: -80px;
+        background-color: rgba(255, 255, 255, 1)
+    }
+    /* BERITA */
+    .b {
+        height: 75vh;
+    }
+    .b-row {
+        height: 75vh;
+    }
+    .bc-grid {
+        height: 75vh;
+        width: 100%;
+    }
+    .bc-box {
+        height: 350px;
+        width: 100%;
+    }
+    .bc-img-box {
+        width: 100%;
+        height: 200px;
+    }
+    .bc-img {
+        height: 120px;
+        width: 120px;
+    }
+    .bc-box p {
+        font-size: 15px;
+    }
+    .bc-btn.dua,
+    .bc-btn.tiga {
+        margin-top: 38px;
+    }
+    .b-grd {
+        width: 100%;
+        height: 75vh;
+    }
+    .b-box {
+        text-align: left;
+    }
+    /* KOMENTAR */
+    .komen {
+        height: 115vh;
+    }
+    .komen-title {
+        height: 20vh;
+    }
+    .guest {
+        height: 95vh;
+    }
+    .guest .container {
+        height: 95vh;
+    }
+    .guest-box {
+        width: 100%;
+        height: 500px;
+    }
+    .blockquote p {
+        font-size: 20px;
+        text-align: center;
+    }
+    /*KAROSEL */
+    .carosel {
+        height: 700px !important;
+    }
+    .crsl {
+        width: 100% !important;
+        height: 600px !important;
+        background-size: cover;
+    }
+    /* VISI DAN MISI */
+    .m-box h3 {
+        margin-top: -30px;
+    }
+    .m-box ol li {
+        text-align: left;
+    }
+    /* FOOTER */
+    .company-box {
+        margin-top: 29px;
+    }
+    .indah {
+        margin: 0;
+    }
+    .kab {
+        margin: 0;
+    }
+    .ks {
+        margin-left: 55px;
+    }
+    .ts {
+        margin-left: 55px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .abo-img {
+        width: 60%;
+    }
+    /* KOMENTAR */
+    .komen {
+        height: 120vh;
+    }
+    .komen-title {
+        height: 20vh;
+    }
+    .guest {
+        height: 100vh;
+    }
+    .guest .container {
+        height: 100vh;
+    }
+    /* VISI & MISI */
+    .vm {
+        height: 100vh;
+    }
+    /* FOOTER */
+    .ts {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1400px) {
+    /* KOMENTAR */
+    .blockquote p {
+        font-size: 20px;
+    }
+    .komen {
+        height: 90vh;
+    }
+    /* FOOTER */
+    footer {
+        height: 50vh !important;
+    }
+    .ks {
+        margin: 0;
+    }
+    .kab {
+        margin-left: 55px;
+    }
+    /* CAROUSEL */
+    .carosel {
+        height: 750px !important;
+    }
+    .crsl {
+        width: 100% !important;
+        height: 650px !important;
+        background-size: cover;
+    }
+}
